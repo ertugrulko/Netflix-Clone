@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+                
+    <div class="hero-img">
+        <nav class="d-flex justify-content-between">
+            <img src="./img/netflix_logo.png" alt="">
+
+            <div class="d-flex align-items-center me-5">
+                <div class="lang">
+                        <select class="lang p-1" name="" id="">
+                        <option value="Türkçe">Türkçe</option>
+                        <option value="English">English</option>
+                    </select>
+                </div>
+                <button type="button" class=" sign-in ms-2 btn btn-danger">Oturum Aç</button>
+            </div>
+        </nav>
+
+        <div class=" text-white hero-text">
+            <div class="hero-text-title-div">
+                <h1 class="hero-text-title" style="font-size: 4rem;">Sınırsız Film,dizi ve çok daha fazlası</h1>
+                <h5 class="mt-1">İstediğiniz yerde izleyin. İstediğiniz zaman iptal edin.</h5>
+                <p class="mt-4">İzlemeye hazır mısınız? Üye olmak ya da hesabınıza tekrar ulaşmak için tek yapmanız gereken e-posta adresinizi girmek.</p>
+                
+                    <div class="form-floating d-flex mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">E-posta Adresi</label>
+                        <button type="button" class=" sign-in ms-2 btn btn-danger"> <b>Başlayın</b> <i class="fa-solid fa-angle-right fa-xl" style="color: #ffffff;"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="opacity">
+                <div class="mx-5 card-hero">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="p-5 card">
+                                <img src="./img/card-img-1.png" alt="">
+                                <h4 class="text-white">Televizyonunuzda izleyin</h4>
+                                <p class="text-white">Akıllı TV, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray oynatıcılar ve daha fazlasında seyredin.</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="p-5 card">
+                                <img src="./img/card-img-2.png" alt="">
+                                <h4 class="text-white">İstediğiniz her yerde izleyin</h4>
+                                <p class="text-white"> Telefonda, tablette, bilgisayarda, televizyonda sınırsız film ve dizi izleyin.</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 col-6">
+                            <div class="p-5 card">
+                                <img src="./img/card-img-3.png" alt="">
+                                <h4 class="text-white"> Çocuklarınız için profiller oluşturun</h4>
+                                <p class="text-white">Üyeliğinize dâhil olan bu ücretsiz deneyim sayesinde çocuklarınız, sadece onlara özel bir alanda en sevdikleri karakterlerle maceralara atılabilir.</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 col-6">
+                            <div class="p-5 card">
+                                <img src="./img/card-img-4.png" alt="">
+                                <h4 class="text-white">Çevrimdışı izlemek için içerikleri indirin</h4>
+                                <p class="text-white">En sevdiğiniz içerikleri kolayca kaydedin ve her zaman izleyecek bir şeyleriniz olsun.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="p-5 m-auto accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="mt-2 accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Netflix Nedir?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="mt-2 accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Netflix'in Maliyeti Nedir?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="accordion-item">
+                  <h2 class="mt-2 accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Nerede İzleyebilirim? 
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="accordion-item">
+                  <h2 class="mt-2 accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      Nerede İzleyebilirim? 
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="accordion-item">
+                  <h2 class="mt-2 accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      asdasd
+                    </button>
+                  </h2>
+                  <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div> 
+            
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
